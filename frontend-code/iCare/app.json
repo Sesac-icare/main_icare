@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "iCare",
+    "slug": "iCare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iCareLogo.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/iCareLogo.jpg",
+      "resizeMode": "contain",
+      "imageResizeMode": "contain",
+      "imageWidth": 200,
+      "imageHeight": 200,
+      "backgroundColor": "#016a4c"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-speech-recognition"
+    ],
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/*"
+    ]
+  }
+}
